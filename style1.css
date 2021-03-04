@@ -1,0 +1,103 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.spot {
+    width: 80px;
+    background-color: rgb(107, 6, 6);
+    text-align: center;
+}
+
+#mini {
+    align-content: right;
+}
+
+
+.head1 {
+    box-shadow: 0px 3px black;
+}
+
+.abc{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.red-text {
+    color: red;
+    font-size: 30px;
+}
+
+.board {
+    box-shadow: 0 3px black;
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.head {
+    position: relative;
+}
+
+@media only screen and (min-width: 1499px) {
+    .head2 {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 100px;
+        align-content: justify;
+    }
+}
+
+
+@media (min-width: 1300px) and (max-width: 1498px) {
+    .head2 {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 80px;
+        align-content: justify;
+    }
+
+
+}
+
+@media (min-width: 1030px) and (max-width: 1299px) {
+    .head2 {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 60px;
+        align-content: justify;
+    }
+}
+
+@media (min-width: 870px) and (max-width: 1029px) {
+    .head2 {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        align-content: justify;
+    }
+}
+
+@media (min-width: 795px) and (max-width: 870px) {
+    .head2 {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 45px;
+        align-content: justify;
+    }
+}
+
+@media only screen and (max-width: 794px) {
+    .head2 {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        align-content: justify;
+    }
+
+}
+
+
+
+
